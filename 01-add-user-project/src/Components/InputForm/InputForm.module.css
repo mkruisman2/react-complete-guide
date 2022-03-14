@@ -1,0 +1,23 @@
+.inputform {
+  position: relative;
+}
+
+.inputform__label {
+  font-weight: bold;
+  display: block;
+  padding: 4px;
+}
+
+.inputform__input {
+  margin: 2px;
+  width: 95%;
+}
+
+.button {
+  border: none;
+  background-color: darkviolet;
+  color: white;
+  font-weight: bold;
+  padding: 5px 20px;
+  margin: 5px 2px 5px 2px;
+}

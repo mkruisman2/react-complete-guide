@@ -1,0 +1,84 @@
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #5a1a01;
+  border-color: #5a1a01;
+  color: white;
+}
+
+.actions .button--alt {
+  color: #8a2b06;
+}
+
+.actions .button {
+  background-color: #8a2b06;
+  color: white;
+}
+
+.actions .button:disabled {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.form {
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.form span {
+  display: inline-block;
+  width: 50%;
+}
+
+.form .error {
+  margin-top: 6px;
+  color: red;
+}
+
+.form label {
+  margin-right: 0.5rem;
+}
+
+.form input {
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font: inherit;
+}
+
+.form .invalid {
+  border-color: red;
+}
+
+.userDetails {
+  border-top: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.userDetails h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.section {
+  margin-bottom: 0.5rem;
+}
